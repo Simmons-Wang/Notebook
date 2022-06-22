@@ -32,6 +32,11 @@ $$
 
 imagine that: 
 
+When we have one more cut, it must follow the next rules:
+
+- cross all the existing line
+- not cross any intersection
+
 
 
 ### cake cutting
@@ -66,3 +71,12 @@ if the outer scope is already global, nonlocal is invalid to be used.
 
 
 
+## 20220622
+
+**dp**
+
+when we want to use dp to solve the problem, start from one-dimension dp, the simplest and directest definition about the problem. 
+
+abstract the practical problem into a sequence problem
+
+the recursion formulation of dp usually involves more than 1 preview state.

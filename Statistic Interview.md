@@ -59,5 +59,36 @@ the effect of one independent variable may depend on the level of the other inde
 
 **the expected prediction** is $\hat f (x) = E_D[f(x;D)] =E_D([y_d|x;D])$
 
-which means the expected result of the model using different train data,
+which means the expected result of the model on test data using different train data,
 
+$f(x;D)$ means the predicted result of test data based on train data D.
+
+$y_d$ means the real tag in the test data.
+
+y means the real tag in the real world.
+
+![image-20220622161923693](https://cdn.jsdelivr.net/gh/Simmons-Wang/IMG/C:%5CUsers%5CKing%5CPictures%5Cnotebookimgimage-20220622161923693.png)
+
+**variance**
+
+means the volatility of  predicted result of test data based on different train data D.
+
+**bias**
+
+means the difference between of expected result of model and real tag of the test data.
+
+**noise**
+
+can be considered as the wrong manual mark
+
+
+
+more flexible (with more degree of freedom) model will generate more variance and less bias (such as Polynomial), while less flexible model such  as Unary Linear will generate more bias but less variance.
+
+
+
+## degree of freedom 
+
+- degree of freedom usually represent the number of factors which play controlling role in a model system
+- In statistic,  DF means the size of data to compute one statistic variable.
+- In ML, DF means the number of the model parameter.
