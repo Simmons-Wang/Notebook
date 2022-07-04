@@ -131,3 +131,167 @@ $$
 
 
 
+### draw NN by graphviz
+
+http://magjac.com/graphviz-visual-editor/ is a good online editor for NN, such as:
+
+```
+digraph G {
+
+        rankdir=LR
+        splines=line
+
+        node [fixedsize=true, label="", ];
+
+        subgraph cluster_0 {
+        color=white;
+        node [style=solid, shape=circle];
+        x1 [label=<T>]
+        x2 [label=<&sigma;<SUB>0</SUB>>]
+        
+        x3 [label=<&xi;>]  # the html style letter
+        x4 [label=<&rho;>]
+        x5 [label=<K<SUB>\1</SUB>>] # the subsript
+        {node [style=solid,shape=point]; # the point will be used as ellipsis for infinite and large size NN
+          p1; p2; p3;}
+          x6 [label=<K<SUB>n</SUB>>];
+          label = "layer 1 (Input layer)";
+         }
+
+    subgraph cluster_1 {
+        color=white;
+        {node [style=solid, shape=circle];
+        a12 a22 a32;} # every point name should be different
+        {node [style=solid,shape=point];
+        p10 p20 p30;}
+        {node [style=solid, shape=circle];
+            a62 a72 a82
+        }; # the square bracket define the scope.
+        label = "layer 2 (hidden layer)";
+    }
+
+    subgraph cluster_2 {
+        color=white;
+        node [style=solid, shape=circle];
+        O [label=<&sigma;(K<SUB>1</SUB>)>];
+        O1 [label=<&sigma;(K<SUB>2</SUB>)>];
+        
+        {node [style=solid,shape=point];
+  p31; p32; p33;}
+  
+        O2 [label=<&sigma;(K<SUB>n-1</SUB>)>];
+        O3 [label=<&sigma;(K<SUB>n</SUB>)>];
+        label="layer 3 (output layer)";
+    }
+
+        x1 -> a12;
+        x1 -> a22;
+        x1 -> a32;
+        x1 -> a62;
+        x1 -> a72;
+        x1 -> a82;
+        
+        x2 -> a12;
+        x2 -> a22;
+        x2 -> a32;
+        x2 -> a62;
+        x2 -> a72;
+        x2 -> a82;
+        
+        x3 -> a12;
+        x3 -> a22;
+        x3 -> a32;
+        x3 -> a62;
+        x3 -> a72;
+        x3 -> a82;
+        
+        x4 -> a12;
+        x4 -> a22;
+        x4 -> a32;
+        x4 -> a62;
+        x4 -> a72;
+        x4 -> a82;
+        
+        x5 -> a12;
+        x5 -> a22;
+        x5 -> a32;
+        x5 -> a62;
+        x5 -> a72;
+        x5 -> a82;
+
+        x6 -> a12;
+        x6 -> a22;
+        x6 -> a32;
+        x6 -> a62;
+        x6 -> a72;
+        x6 -> a82;
+
+        a12 -> O;
+        a22 -> O;
+        a32 -> O;
+        a62 -> O;
+   }
+```
+
+http://alexlenail.me/NN-SVG/LeNet.html
+
+
+## 20220701
+
+### infinite coin flip
+
+
+
+## 20220703
+
+### if you want an array to be the key of dict
+
+list is unhashable, but tuple can do that
+
+
+
+### pandas isin() and contains()
+
+
+
+
+
+### RE
+
+pattern matching
+
+- regex.
+  - . for any character. \d for number. 
+  - \* for more than zero times.
+  - \+ for more than zero or zero.
+  - greedy match is default. ? after \+ or \* is non-greedy
+  - () is select
+  - combine with format or replace is more powerful
+- re.compile(regex).findall() or search()
+
+
+
+
+
+### create file using shell
+
+touch, if the file does not exist, it will create a new file
+
+vi
+
+echo. write line by line
+
+
+
+### cat write a file
+
+cat > path << EOF
+
+
+
+EOF
+
+
+
+### sh -x
+
