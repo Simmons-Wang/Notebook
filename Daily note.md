@@ -293,5 +293,49 @@ EOF
 
 
 
-### sh -x
+top can make me see the backage jobs
+
+jobs.
+
+
+
+### sh -x can line by line run the shell script and print it.
+
+
+
+## 20220706
+
+### Gaussian integration
+
+
+
+### Jocab
+
+input $\mathbf{X} \in \mathbb{R}_n$, output $\mathbf{Y} = [f_1(\mathbf{X}) \dots f_n(\mathbf{X})] \in \mathbb{R}_n$ 
+
+$y_1 = f_1(x_1, x_2, \dots x_n)$
+
+$y_2 = f_2(x_1, x_2, \dots x_n)$
+
+$y_3 = f_3(x_1, x_2, \dots x_n)$
+
+$y_n = f_n(x_1, x_2, \dots x_n)$
+$$
+|\mathbf{J} |= [\frac{\partial Y}{\partial X}] = \begin{vmatrix}
+\frac{\partial f_1}{\partial x_1} & \dots  & \frac{\partial f_1}{\partial x_n} \\ 
+\dots & \dots  & \dots \\ 
+\frac{\partial f_n}{\partial x_1} & \dots  & \frac{\partial f_n}{\partial x_n} \\ 
+\end{vmatrix}
+$$
+Jocab determint is to transfer the n - dimension space into m - dimension space, absolute value
+
+
+
+For example, when we do double integral,  
+
+$\int \int f_{xy}(x, y)dxdy = \int \int f_{xy}(x(u,v), y(u,v))|J|dudv$
+
+Polar coordinate transformation
+
+$dxdy = |J|drd\theta$
 
