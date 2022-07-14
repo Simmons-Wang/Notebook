@@ -339,3 +339,53 @@ Polar coordinate transformation
 
 $dxdy = |J|drd\theta$
 
+
+
+## 20220707
+
+### coupon collector problem
+
+given n coupons, how many coupons do you expect you need to draw with replacement before having drawn each coupon at least once?
+
+Let $T$ be the number of draws.
+$$
+E(T) = {n \over n} + {n \over n-1} \dots + {n \over 1} = n \sum_{i=1}^{n}{1 \over i}
+$$
+
+
+
+
+## 20220713
+
+### state price
+
+state price means the price of the state
+
+we assume a security, when a state happen, the payoff will be 1, or it will be zero. the state price is the value of the security at time 0.
+$$
+V_0 = \zeta (w)P(w) = {1 * \tilde{P}(w) \over (1 + r)^N} = \tilde{\mathbb{E}} {V_N \over (1+r)^N}
+$$
+the state price density means ${V_0 \over P(w)} = \zeta (w)$,  $V_0$ per unit real probability.
+
+## the meaning the PDF
+
+$\rho = M /V$, mass per unit volume, any definition like {0} per unit {1}, can be named as a kind of density,
+
+ so $f(x) = \lim_{\Delta V \rightarrow 0}({M(\Delta V) \over \Delta V})$
+
+the sum of the probability is 1, so $f(x) = \lim_{\Delta x \rightarrow 0}({P(\Delta x) \over \Delta x})$
+
+
+
+## circle  sword,  Josephus problem
+
+treat it as a circle.
+
+when there are only $2^n$ people left, the first one will be the last survivor.
+
+given the number of people is X. we can get Y which is the highest power of 2 that is less than or equal to X.
+
+because Y must be more than or equal to X / 2, 
+
+there will be Y-X people die before we get   $2^n$ people left, and we jump one at a time. so the first one of the  $2^n$ people left wil be $2 * (Y-X) + 1$.
+
