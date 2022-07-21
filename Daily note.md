@@ -389,3 +389,53 @@ because Y must be more than or equal to X / 2,
 
 there will be Y-X people die before we get   $2^n$ people left, and we jump one at a time. so the first one of the  $2^n$ people left wil be $2 * (Y-X) + 1$.
 
+
+
+
+
+## 20220712
+
+### shell \$N
+
+\$1 the first parameter you give to the command
+
+\$n the nth parameter you give to the command
+
+\$0 the name of this script itself
+
+\$# the number of parameter you give
+
+\$\$ the excute job id of  the script
+
+\$? the state after the last command was excuted, 0 if it is normal, else 1.
+
+\$@ or \$* all the parameter you give, “\$*” will make it as a single string
+
+
+
+## undetected_chromedriver
+
+it will not trigger anti-bot services, as a alternative for chrome driver in selenium
+
+easy way:
+
+```python
+import undetected_chromedriver as uc
+driver = uc.Chrome()
+driver.get('https://distilnetworks.com')
+opts = uc.ChromeOptions()
+```
+
+monkeypatch way
+
+```python
+import undetected_chromedriver as uc
+uc.install()
+
+from selenium.webdriver import Chrome
+driver = Chrome()
+driver.get('https://distilnetworks.com')
+```
+
+
+
