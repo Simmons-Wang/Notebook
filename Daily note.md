@@ -301,6 +301,12 @@ jobs.
 
 ### sh -x can line by line run the shell script and print it.
 
+after you create a new xxx.sh
+
+chmod a+x xx.sh to make it executed
+
+ 
+
 
 
 ## 20220706
@@ -465,4 +471,85 @@ The matrix can be transfered to a recurrent decision tree.
 It repesent the state transiton in a markov process.
 
 
+
+## 20220725
+
+### stop time
+
+$$
+r= f(\omega, t)
+$$
+
+both r and t are time. The stop time will return a time which is not relative with the future.
+
+It is correspond with the state and time.
+
+For example in binary pricing tree, it can represent the optimal executed time based on current state and current time, it returns sometime in the past.
+
+
+
+
+
+### martingale and markov process
+
+martingale:
+$$
+X_n = E_{n}(X_{n+1})
+$$
+markov process:
+$$
+E_n(f(X_{n+1)}) = g(X_{n})
+$$
+for any f(x), there will be a g(x) that make the (11) hold.
+
+martingale may not be a markov process, because we need to prove it for any f(x).
+
+markov process is also not always martingale, because only when f(x) = x, g(x) = x, it holds.
+
+
+
+## 20220726
+
+### CV for data science:
+
+- be short and precise. only keep the relevant experience, do not inculde everything even if they are big achievement. customized
+
+- grab the attention \. include your most attractive achievement. It also should be customized based on the JD. 
+
+- skill, categorize them. soft skill need proof. do not be crowded. give them rank. customized
+
+- Project experience. It should include the interns. include academic projects. customized
+
+- Project decsription. 
+
+  - STAR:
+    - Situation
+    - Task
+    - Action
+    - Result
+  - highlight the key words. list the methods
+
+  
+
+- only relative courses. customize
+
+- achievement is very important.
+
+- Include your favorite books. not you love reading books
+
+- domain is important, highlight it 
+
+
+
+## 20220727
+
+when you extract information for dict, use get() is better that use brackets. If the key does not exist in the dict, get() will return None instead of raising an error.
+
+
+
+## 20220801
+
+use math.isclose() to compare to float value, which is robust.
+
+use 0b100100 to respesent a binary number and use bin() to present it.
 
