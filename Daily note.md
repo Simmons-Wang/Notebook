@@ -399,7 +399,7 @@ there will be Y-X people die before we get   $2^n$ people left, and we jump one 
 
 
 
-## 20220712
+### 20220712
 
 ### shell \$N
 
@@ -445,6 +445,7 @@ driver.get('https://distilnetworks.com')
 
 
 
+<<<<<<< Updated upstream
 
 
 ### 202220724
@@ -552,4 +553,29 @@ when you extract information for dict, use get() is better that use brackets. If
 use math.isclose() to compare to float value, which is robust.
 
 use 0b100100 to respesent a binary number and use bin() to present it.
+=======
+### Layers in CNN
+
+#### FC
+
+map the features(after convolution and pooling) with feature, the weight will be trained.
+$$
+y = Wx
+$$
+linearly transform space x into space y.
+
+
+
+
+
+## 20220722
+
+### convolutional kernel
+
+It is feature filter, only detect specific line features
+
+so we can use different kernels at the same time to generate a series of output for every dimension of th picture. 
+
+Compared with pooling,  convolution means to detect feature, pools is going to reduce dimension.
+>>>>>>> Stashed changes
 
