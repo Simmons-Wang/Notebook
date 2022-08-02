@@ -124,4 +124,21 @@ example.
 - **Reflect on past successes.** Chances are you’ve overcome stressful events in the past—and you survived! Give yourself credit. Reflect on what you did during that event that was helpful and what you might like to do differently this time.
 - **Seek support from those you trust.** Many people isolate themselves when they’re stressed or worried. But social support is important, so reach out to family and friends.
 - **Control what you can.** Focus on the things that are within your control, even if it’s as simple as weekly meal planning or laying out your clothes the night before a stressful day. Establish routines to give your days and weeks some comforting structure.
-- make preparation for every possible result rationally, as much as possible. evaluate the risk, draw it on a paper, I like represent it with a decision tree. The evaluate what I can handle, and what we can. for what we cannot, make the loss to be the least, most important, make myself  Be mentally prepared to face challenges calmly
+- make preparation for every possible result rationally, as much as possible. evaluate the risk, draw it on a paper, I like represent it with a decision tree. The evaluate what I can handle, and what we can. for what we cannot, make the loss to be the least, most important, make myself  Be mentally prepared to face challenges calmly.
+
+
+
+## why do you want to be a quant developer
+
+1. I really like math since I am younger,  I am always try my best to find a better, wiser solution for a problem. But sometimes I find I am not so love theorical math, what I am really like is use math to slove practical problem, which means I want to be an  engineer instead of scientist. especail when I study finance, math is the best way  for me to understand the finance world.
+2. when I  begin to study programming, I find the other hobby, coding. the programming language give me the power, the magic , to dig into data, to find pattern, to compute fast, to create new application, to be faster.
+3. when I start to do internship in quant fund or do research about QIS, I find that quant developer is the perfect place to combine the engieering with algorithm. which also means, turn my hobbies into the work.
+
+
+
+## how much coding experience:
+
+1. I complete several programming courses at school, including pyhton, R, cpp, my favourite and most skilled is python. also there are some practical course such as machince learning, text tech give me more chance to practice it.
+2. I actively particapate in several research projects, they include sentiment ana, enviro, and green finance, I get experience in data visual, web crawl, scienctific computing and other things. even when I graduate , my undergraduate supervisor call me to contribute to his project and his textbook because of my coding skill.
+3. during internship. everything is about coding. classification, regression, visual. but internship encourage me to improve my skill, for example, when I deal with large-size dataset, it is really too slow if we use for loop. so pandas is better. but sometimes the method such as rolling is very limited, numpy has more extensibility, such as stride_tricks and so on. if it is still not fast enough, we use numba, use cython, use parallel and muti-processing.
+
