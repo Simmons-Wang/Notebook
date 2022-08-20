@@ -246,3 +246,26 @@ weakness,
 I struggle with **negative criticism**, and can become obsessed with perfecting my work after receiving notes from a supervisor. While I appreciate the guidance, I think I can learn to be less harsh on myself.
 
 I don't have much experience in software engineering, although I have learned it in some projects, but I haven't taken a systematic course, but I am now seriously studying software engineering courses on coursera, I believe I will make up for this soon a little.
+
+
+
+## What are the key areas where you differentiate RBC Capital Markets from your competitors
+
+
+
+1. RBC operate on core values of respect, integrity, and inclusion. Integrity is the guarantee of RBC's leading position in the industry. RBC Capital Markets is recognized as one of the most trusted investment banks globally. This recognition is important as trust is the foundation on which RBC differentiates itself and develop client relationships.
+2. RBC  work with clients across the spectrum. Some banks focus only on large-cap clients, while we are focused on serving the needs of all clients and, simply put, we work harder.
+
+
+
+
+
+## What attracts you to a role in Finance with RBC? What activities would you expect to carry out on a day to day basis
+
+1. I see this opportunity as a way to contribute to a forward-thinking company and talented team. I firmly believe that cutting-edge technology will play a big role in trading. With highly technical and collaborative teammates in RBC, I will grow up fast and contribute my talent to the world best electronic trading platform.
+
+2. I love both finance and technology and I have rich experience in data processing and modeling. I am always want to devote myself to applying programming to finance, which is what I want to do in the future and I will stick to it.
+
+3. Every day, I will be dealing with different kinds of code, data, and models.  Working with data and code is something that I will truly love doing, and this holds true regardless of whether I am conducting research on tactics, constructing models, or optimising systems.
+
+   

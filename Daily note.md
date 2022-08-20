@@ -789,3 +789,30 @@ Hongyi Zhang等人（2018）提出了mixup来增强图像数据，基于邻域�
 \3. 拼接。操作完成之后然后再将原始图片按照 第一张图片摆放在左上，第二张图片摆放在左下，第三张图片摆放在右下，第四张图片摆放在右上四个方向位置摆好
 
 4、进行图片的组合和框的组合 完成四张图片的摆放之后，我们利用矩阵的方式将四张图片它固定的区域截取下来，然后将它们拼接起来，拼接成一 张新的图片，新的图片上含有框框等一系列的内容
+
+
+
+
+
+## 20220811
+
+### dll load failed while importing win32api
+
+1. conda install pywin32
+2. copied the two files from `[installation directory of Anaconda]\Lib\site-packages\pywin32_system32` to `C:\Windows\System32`,
+3. pip install --upgrade pywin32==225, it works
+
+
+
+###  **WARNING: Ignoring invalid distribution -ip (path to packages)**
+
+go to 'site-packages' directory, delete folders whose name start with ~ (tilde)
+
+
+
+
+
+## 20220820
+
+### joblib
+
