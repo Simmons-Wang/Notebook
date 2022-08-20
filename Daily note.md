@@ -1,3 +1,7 @@
+```
+from joblib import Parallel, delayed
+```
+
 # Daily note
 
 ## 20220609
@@ -816,3 +820,36 @@ go to 'site-packages' directory, delete folders whose name start with ~ (tilde)
 
 ### joblib
 
+```python
+from joblib import Parallel, delayed
+
+test = Parallel(n_jobs=2)(delayed(Newton)(i, f, 100, 1e-6) for i in range(1, 10))
+```
+
+The return value of Parallel is List type.
+
+When you function such as Newton has default parameter, we should write them.
+
+
+
+Error:Could not pickle the task to send it to the workers
+
+change the backend, do not use loky, use ‘threading’.
+
+do not use ‘multiprocessing’ if you want to run it in th  interactive interpreter.
+
+Can't get attribute 'calIV' on <module '__main__' (built-in)>
+
+But you can use multiprocessing in function, and run the function in the main()
+
+
+
+Note: Multiprocessing-backend parallel loops cannot be nested below threads
+
+
+
+### Sqlite
+
+```python
+sqlite3.connect("OptionTrading.sqlite", check_same_thread=False)
+```
