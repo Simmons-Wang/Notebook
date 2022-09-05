@@ -853,3 +853,27 @@ Note: Multiprocessing-backend parallel loops cannot be nested below threads
 ```python
 sqlite3.connect("OptionTrading.sqlite", check_same_thread=False)
 ```
+
+
+
+
+
+### groupby in pandas
+
+
+
+## 20220823
+
+### pandas rolling
+
+series.rolling(3, min_periods=1).mean()
+
+min_periods will deal with a series with null value, if there are at least min_periods data in the rolling, it will work. less than min_periods, it will be nan.
+
+
+
+### series operation
+
+when we do operation between series such as A-B, be careful about the index,
+
+when we assign a Series to a column of a dataframe.
