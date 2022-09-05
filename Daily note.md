@@ -877,3 +877,22 @@ min_periods will deal with a series with null value, if there are at least min_p
 when we do operation between series such as A-B, be careful about the index,
 
 when we assign a Series to a column of a dataframe.
+
+
+
+
+
+## 20220905
+
+pd.MultiIndex.from_tuples() and pd.MultiIndex.from_product()
+
+**DataFrame.****swaplevel****(***i=- 2***,** *j=- 1***,** *axis=0***)**[[source\]](https://github.com/pandas-dev/pandas/blob/v1.4.4/pandas/core/frame.py#L6801-L6877)
+
+df.sum(level=1, axis=1)
+
+
+
+do not use the namspace from outer scope
+
+
+
