@@ -132,7 +132,10 @@ example.
 
 1. I really like math since I am younger,  I am always try my best to find a better, wiser solution for a problem. But sometimes I find I am not so love theorical math, what I am really like is use math to slove practical problem, which means I want to be an  engineer instead of scientist. especail when I study finance, math is the best way  for me to understand the finance world.
 2. when I  begin to study programming, I find the other hobby, coding. the programming language give me the power, the magic , to dig into data, to find pattern, to compute fast, to create new application, to be faster.
-3. when I start to do internship in quant fund or do research about QIS, I find that quant developer is the perfect place to combine the engieering with algorithm. which also means, turn my hobbies into the work.
+3. when I start to do internship in quant fund or do research about QIS, I find that quant  is the perfect place to combine the engieering with algorithm. which also means, turn my hobbies into the work.\
+4. best company
+
+
 
 
 
@@ -181,29 +184,29 @@ example.
 
 ## quant self-introduction
 
-"Hi I'm John and I will graduat from UoE with a degree in Financial Computing. My interests are in quant analysis, data mining coding  and I love to create efficient and practical financial analysis with programming skill.
+"Hi I'm John and I graduat from UoE with a degree in Financial Computing. My interests are quant analysis, data mining coding.
 
-I previously do internships in one China hedge fund as a quant researcher. my job is to design QIS and build backtesting module.
+ I previously do internships in one China hedge fund as a quant researcher. my job is to design QIS and build backtesting module.  I mainly deal with price data and volume data, which require a good skill of code efficency.  I create some self-build module to accelerate some process using muti-processor and numpy.  I also try to do something different, combine some machine learning or deep learning method to research alternative data. For example, using  time series clustering to build attention factor from search index. Using CNN to construct picture recognition strategy and so on. 
 
-I mainly deal with price data and volume data, which require a better skill of code efficency.  I create some self-build tool to accelarate some process using muti-processor and numpy.
+ Back in school, I complete several programming courses and many coding-driven courses, including. I actively particapate in several research projects, they include sentiment ana, enviro, and green finance, I get experience in data visual, web crawl, scienctific computing and other things. 
 
-I also try to do something different, combine some machine learning or deep learning method to research alternative data. For example, using  time series clustering to build attention factor from search index. Using CNN to construct picture recognition strategy and so on.
+
+
+These summer I did internship in a fund as a quant analyst to research crypto,  Twitter Analytics: Crawled tweets from over 2000 cryptocurrency-related accounts in real-time by tweepy, applied hybrid approach to identify projects names in tweets and calculated TFIDF
+• Etherscan Analytics: built tracker to collect transaction data on Etherscan with Python and SQLite3, monitored signals of abnormal transactions
+• Limit Order Book: Optimized the data cleaning and factor generation module of deep limit order book,
+
+ I'm interested in the[Quantitative Investment Internship  role at because I always want to contribute my coding skill to such a tech-driven company. . would you like to know anything else about me?
+
+
 
  some people do not believe machine learning . most of qis only appeared in papers,  real QIS do not trust ml.  can play a  role in financial world. and when i try to implement ml method, I also find some problem, such as the long training and updating time,  easily overfitting, not so clear economical logic. when we deal with alternative sdata, ml also have a high requirment for data quality and data size .我们都是从经济学开始学起，非常相信机器学习将会在这个领域多么的有用.
-
-Back in school, I complete several programming courses and many coding-driven courses, including. I actively particapate in several research projects, they include sentiment ana, enviro, and green finance, I get experience in data visual, web crawl, scienctific computing and other things. even when I graduate , my undergraduate supervisor call me to contribute to his project and his textbook because of my coding skill.
-
-I'm interested in the Q Developer role at Seamless because I always want to contribute my coding skill to such a tech-driven quant company,we believe the same future of quant and am inspired by the challenge and risk culture.
-
-
-
-would you like to know anything else about me?
 
 
 
 ## What’s been the most challenging problem you have faced and how did you solve it?
 
-In my most recent internship, the most chanllenging problem is my first strategy, It is about equity chip distribution.
+In my last internship, the most chanllenging problem is my first strategy, It is about equity chip distribution.
 
  there are very complex computing for a large dataset, the basic code need one month to run it.
 
@@ -217,7 +220,7 @@ I love it, because it is challenging, challenge push me to improve myself fast, 
 
 ## give me an example when you work well with the team
 
-Last semester, I received an invitation from my undergraduate tutor to participate in the compilation of the textbook "Big Data Finance", and was responsible for the writing team of Chapters 3 to 5. The main content is the basic introduction of statistical learning and machine learning methods and the development of application cases in the financial field. In a two-month period, my requirements for my team have always been rigorous planning and adequate communication. Weekly updated schedules and regular meetings are my way, especially for cases where we ask for original data and code, and strive to explore truly useful financial applications.
+Last semester, I received an invitation from my undergraduate tutor to participate in the compilation of the textbook "Big Data Finance", and was responsible for the writing team of Chapters 3 to 5. The main content is the basic introduction of statistical learning and machine learning methods and the development of application cases in the financial field. In a two-month period, my requirements for my team is careful planning and adequate communication. Weekly updated schedules and regular meetings are my way, especially for cases where we ask for original data and code, and strive to explore truly useful financial applications.
 
 The problem encountered in this is that, especially in the ridge regression and lasso regression involved in Chapter 5, the responsible students do not have a thorough grasp of the knowledge, and there are many mistakes in the first draft. In actual work, we will also encounter the situation that there are shortcomings in the team. My solution is to take problem solving as the first priority, point out the deficiencies in time, and add more manpower and energy without delaying other progress. into the writing of this part.
 
@@ -269,3 +272,29 @@ I don't have much experience in software engineering, although I have learned it
 3. Every day, I will be dealing with different kinds of code, data, and models.  Working with data and code is something that I will truly love doing, and this holds true regardless of whether I am conducting research on tactics, constructing models, or optimising systems.
 
    
+
+## what do you think motivates your life:
+
+- challenge. Without doubt, challenge give me the power to move forward and make myself better. Everyone will be lazy in a peaceful life, but challenge will give me passion to enjoy the life. I learn how to use a new software in one afternoon, how to clip video in one day, how to get familar with a new programming language in one week. all the them make me feel A sense of accomplishment.
+- love and friendship. I never want to fight by myself all the time. friends and partner always make me feel my life is full of joy and hope. Not only in life, in work, nobody can solve all the problems by himself, but a team maybe.we learn from each other, we encourage each other.
+- study. I always willing to learn something new, maybe a new language, a new software, a new book. these new knowledge refresh me, improve me. I am happy to feel that I can become a better one. what’s more, as I said before, study can give me many challenges.
+
+
+
+
+
+
+
+## Give an example of something you did wrong or a mistake you made in a previous role?
+
+I made a mistake when I do a data analyst intern. My task is to update our database after collecting data from a data source. But unfortunately I misunderstand the instruction of my mentor. The dataset size should be small. But I thought it should be a complete database, which is much bigger and more difficult to deal with. So I actually use longer time and stay up late to solve the problem, which is actually not necessary.
+
+I learn a lot from this experience, firstly listen carefully is important. and more important,  never be shy to ask questions.  communication is important.
+
+
+
+
+
+## Financial News
+
+The pound plummeted  after the government announced huge tax cuts in its mini-budget. It then plunged again on Sept 6, reaching $1.04 - the lowest level the pound has ever been against the dollar.The cause is investors selling the pound because they have doubts about the government's plans, said Jane Foley, of Rabobank. The interest on 10-year bonds - which governments sell to investors - has risen from just over 1% in January, to more than 4% now. The fall in the pound comes after a surge in the US dollar's value; Part of the reason is down to the US being less exposed to high energy prices caused by the Russian invasion of Ukraine. As such, the US is considered more of a safe haven for investors.

@@ -896,3 +896,37 @@ do not use the namspace from outer scope
 
 
 
+## 20220906
+
+![preview](https://pica.zhimg.com/dff0de718d34e83e9fd3f6c931675889_r.jpg?source=1940ef5c)
+
+而 (n-1)/n * σ² **!=** σ² ，所以，為了避免使用有 [bias] 的 estimator，我們通常使用它的修正值 S²：
+
+
+
+
+
+## 20220919
+
+float(‘inf’) == float(‘inf’), return True
+
+
+
+When we calculate the slope of the line, it will overflow easily and you how to deal with the x1 == x2,
+
+so the following will be a better solution:
+
+       def k(p1, p2):
+            # if p1[0] == p2[0]:
+            #     return [float('inf')]
+            # else:
+            return [p1[1] - p2[1], p1[0] - p2[0]]
+
+
+​                    
+        def kequal(k1, k2):
+            
+            return k1[0] * k2[1] == k1[1] * k2[0]
+
+
+​                    
